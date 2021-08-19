@@ -1,0 +1,68 @@
+body {
+    font-family: Gill Sans, sans-serif;
+    margin: 0 auto;
+    background-color: #ffce00;
+}
+
+h1{
+    font-family: Copperplate Gothic, sans-serif;
+    margin-bottom: 0px;
+}
+
+h3{
+    margin-top: 2px;
+    font-family: Century Gothic, sans-serif;
+    font-weight: 400;
+}
+
+span{
+    color: red;
+}
+
+.flex-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+@media (max-width: 600px) {
+    .flex-container{
+        width: 100%;
+    }
+}
+
+iframe{
+    width: 100%;
+}
+
+.iframe-center{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.button{
+    color:black;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 1px
+    border: 1px solid black;
+    padding: 7px 12px;
+    background-color: aliceblue;
+    border-radius: 4px;
+}
+
+.button:hover{
+    box-shadow: 1px 1px 3px;
+}
+
+.button:active {
+    background-color: grey;
+    color: azure;
+}
+
+.flex-name {
+    text-align: center;
+}
+
+.space {
+    padding: 20px;
+}
