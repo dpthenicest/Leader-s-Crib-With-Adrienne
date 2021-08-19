@@ -32,6 +32,7 @@ span{
 
 iframe{
     width: 100%;
+    margin-top: 3px;
 }
 
 .iframe-center{
@@ -40,14 +41,14 @@ iframe{
 }
 
 .button{
-    color:black;
-    text-decoration: none;
-    font-weight: bold;
-    letter-spacing: 1px
     border: 1px solid black;
     padding: 7px 12px;
     background-color: aliceblue;
     border-radius: 4px;
+    color:black;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 1px
 }
 
 .button:hover{
@@ -61,6 +62,10 @@ iframe{
 
 .flex-name {
     text-align: center;
+}
+
+.time-adjust{
+    margin-bottom: 5px;
 }
 
 .space {
